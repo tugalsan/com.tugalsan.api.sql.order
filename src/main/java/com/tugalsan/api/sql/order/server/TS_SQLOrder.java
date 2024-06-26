@@ -19,6 +19,6 @@ public class TS_SQLOrder {
             return "";
         }
         TS_SQLSanitizeUtils.sanitize(columnNames);
-        return TGS_StringUtils.concat("ORDER BY ", TGS_StringUtils.toString(columnNames, ","), ascending ? " ASC" : " DESC");
+        return TGS_StringUtils.cmn().concat("ORDER BY ", TGS_StringUtils.cmn().toString(columnNames, ","), ascending ? " ASC" : " DESC");
     }
 }

@@ -1,9 +1,9 @@
 package com.tugalsan.api.sql.order.server;
 
-import com.tugalsan.api.list.client.*;
-import com.tugalsan.api.sql.sanitize.server.*;
-import com.tugalsan.api.string.client.*;
-import java.util.List;
+import module com.tugalsan.api.list;
+import module com.tugalsan.api.sql.sanitize;
+import module com.tugalsan.api.string;
+import java.util.*;
 
 public class TS_SQLOrder {
 
